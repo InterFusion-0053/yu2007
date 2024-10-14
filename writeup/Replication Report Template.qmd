@@ -14,7 +14,13 @@ format:
 
 I chose to replicate Yu & Smith’s (2007) study on cross-situational word learning because it offers a unique perspective on how humans process ambiguous information in learning environments—a key concept in both cognitive science and AI. I am particularly interested in how the principles of statistical learning observed in human behavior can inform machine learning models. This study demonstrates how learners can rapidly acquire word-referent pairs without direct feedback, using statistical correlations across multiple learning trials. Replicating this experiment will allow me to explore these learning strategies further and assess their reliability in real-world-like settings where ambiguity is inherent. 
 
-To conduct this experiment, I will need to recreate the original conditions where participants are exposed to multiple ambiguous trials involving pseudowords and images of unfamiliar objects. The primary challenge lies in replicating the complex design, ensuring that each trial maintains ambiguity while preserving cross-trial statistical regularities that allow participants to learn the correct word-referent pairings. Additionally, ensuring accurate timing and stimuli presentation, consistent with the original study, will be crucial for a valid replication. 
+The stimuli will consist of 54 unfamiliar objects paired with 54 pseudowords, divided into sets of 18 word-referent pairs. Pseudowords will be generated to sound like plausible English words but lack meaning, while the objects will be unfamiliar to prevent prior knowledge from influencing learning.
+
+Participants will be presented with multiple trials in three conditions: 2 words with 2 objects, 3 words with 3 objects, and 4 words with 4 objects. In each trial, words and referents are shown simultaneously without clues linking them, requiring participants to learn the correct word-referent pairings by tracking co-occurrences across trials. After the learning phase, participants will take a forced-choice test to identify the correct referents for each word.
+
+The main challenge will be ensuring the ambiguity of each trial while maintaining statistical information across trials, along with controlling the timing and stimuli presentation to match the original study.
+
+The primary challenge lies in replicating the complex design, ensuring that each trial maintains ambiguity while preserving cross-trial statistical regularities that allow participants to learn the correct word-referent pairings. Additionally, ensuring accurate timing and stimuli presentation, consistent with the original study, will be crucial for a valid replication. 
 
 The original paper can be accessed via [DOI](https://doi.org/10.1111/j.1467-9280.2007.01915.x), and the replication materials are available in the [repository here](https://github.com/InterFusion-0053/yu2007/). 
 
